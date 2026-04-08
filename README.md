@@ -18,10 +18,10 @@
 打开你的 AI 编程工具（Claude Code、Codex 等），直接说：
 
 ```
-安装这个skill https://github.com/your-username/ai-recap-skill.git
+安装这个skill https://github.com/realrxen/recap.git
 ```
 
-AI 会自动克隆仓库，将 `ai-recap-skill` 文件夹移动到对应的 skills 目录。
+AI 会自动克隆仓库，将 `recap` 文件夹移动到对应的 skills 目录。
 
 ### 方式二：手动安装
 
@@ -29,22 +29,23 @@ AI 会自动克隆仓库，将 `ai-recap-skill` 文件夹移动到对应的 skil
 
 ```bash
 # 克隆仓库到本地
-git clone https://github.com/your-username/ai-recap-skill.git
+git clone https://github.com/realrxen/recap.git
 
 # Claude Code
-cp -r ai-recap-skill ~/.claude/skills/ai-recap-skill
+cp -r recap ~/.claude/skills/recap
 
 # Codex CLI
-cp -r ai-recap-skill ~/.codex/skills/ai-recap-skill
+cp -r recap ~/.codex/skills/recap
 ```
 
 **Windows：**
 
 ```powershell
 # 克隆仓库到本地
-git clone https://github.com/your-username/ai-recap-skill.git
+git clone https://github.com/realrxen/recap.git
 
-# 下载后手动移动到对应的skills文件夹内即可
+# 下载后手动移动到对应Agent的skills文件夹内即可 例如:
+C:\Users\xxx\.claude\skills\
 ```
 
 
